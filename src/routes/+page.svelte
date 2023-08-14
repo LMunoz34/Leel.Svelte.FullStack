@@ -1,9 +1,9 @@
 <script>
   import { SignedIn, SignedOut, Doc, Collection } from 'sveltefire';
-  import { signInAnonymously, signInWithCredential } from "firebase/auth";
+  import { signInAnonymously } from "firebase/auth";
 </script>
 
-<h1>Leel.Svelte.FullStack</h1>
+<h3>Leel.Svelte.FullStack</h3>
 
 <SignedIn let:user let:signOut>
     <p>Hello {user.uid}</p>

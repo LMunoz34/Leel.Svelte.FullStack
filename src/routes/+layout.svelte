@@ -8,7 +8,7 @@
 
     // Initialize Firebase
     const app = initializeApp(firebaseconfig);
-     const firestore = getFirestore(app);
+    const firestore = getFirestore(app);
     const auth = getAuth(app);
 </script>
 
