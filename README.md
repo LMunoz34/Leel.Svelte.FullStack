@@ -3,7 +3,7 @@
 
 ## Introduction
 
-This is a demo project that illustrates the use of Firebase in a full-stack application. The project is built with React for the front end, Node.js for the back end, and Firebase as the database. It showcases user authentication, real-time updates, and various other Firebase features.
+This is a demo project that illustrates the use of Firebase in a full-stack application. The project is built with Svelte for the front end, Node.jsand express for the back end, and Firebase as the database. It showcases user authentication, real-time updates, and various other Firebase features.
 
 ## Features
 
@@ -24,16 +24,16 @@ Ensure you have the following installed on your system:
 
 1. **Clone the repository:**
 
-   ```bash
-   git clone https://github.com/yourusername/firebase-demo.git
-   cd firebase-demo
-   ```
+
+   git clone https://github.com/LMunoz34/Leel.Svelte.FullStack
+   cd Leel.Svelte.FullStack
+
 
 2. **Install dependencies:**
 
-   ```bash
+
    npm install
-   ```
+
 
 3. **Set up Firebase:**
 
@@ -41,9 +41,9 @@ Ensure you have the following installed on your system:
 
 4. **Start the development server:**
 
-   ```bash
+
    npm start
-   ```
+
 
 ## Deployment
 
@@ -63,7 +63,7 @@ To deploy the project using Firebase Hosting:
 
 ## Usage
 
-Visit `http://localhost:3000` (or your deployed URL) in your browser to explore the application.
+Visit `http://localhost:5173` (or your deployed URL) in your browser to explore the application.
 
 ## Contributing
 
@@ -83,44 +83,3 @@ Thanks to Firebase for making real-time applications simpler and more scalable!
 
 ---
 
-This README provides a solid starting point for your project, but don't hesitate to tailor it to your specific needs. Consider including additional sections, such as a `## Roadmap` or `## FAQ`, if they apply to your project.
-=======
-# create-svelte
-
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
->>>>>>> master
