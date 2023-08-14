@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-Certainly! Below is a sample README for a full-stack demo project that utilizes Firebase. You can modify it to fit your specific project's details and requirements.
-
----
 
 # My Full-Stack Firebase Demo Project
 
