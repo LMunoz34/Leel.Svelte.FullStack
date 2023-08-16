@@ -35,6 +35,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"express": "^4.18.2",
 		"firebase": "^9.23.0",
 		"sveltefire": "^0.4.1"
 	}
